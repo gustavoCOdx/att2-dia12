@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+
+        $(document).ready(function () {
+
+            $("#conteudo").hide();
+
+
+            $("#link_abre").click(function () {
+
+                $("#conteudo").slideToggle("slow");
+        });
+
+    });
+    </script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="titulo">
+            teste Jquary
+            <a class="link_abre" href="#">Clique aqui</a>
+        </div>
+
+
+        <div class="conteudo">
+            <p>Javascript é uma linguagem de programação que permite a você implementar itens complexos em paginas web</p>
+        </div>
+    </div>
+    <link rel="stylesheet" href="index.css">
+</body>
+</html>
